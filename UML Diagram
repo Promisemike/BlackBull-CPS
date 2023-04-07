@@ -1,0 +1,19 @@
+    +------------+
+    | Calculator |
+    +------------+
+    | - memory   |
+    +------------+
+    | + add(x,y) |
+    | + subtract(x,y) |
+    | + multiply(x,y) |
+    | + divide(x,y) |
+    | + clearMemory() |
+    +------------+
+
+The Calculator class has one private attribute, memory, which stores the current result of previous operations.
+
+The Calculator class has public methods for performing basic arithmetic operations: add, subtract, multiply, and divide. These methods take two parameters (x and y) and return the result of the operation. Each method updates the memory attribute with the result.
+
+The Calculator class also has a clearMemory method which sets the memory attribute to 0, effectively resetting the calculator to its initial state.
+
+This simple class diagram demonstrates the basic structure of a calculator application that can perform basic arithmetic operations. With this class diagram, we can begin implementing the calculator application in Java, making use of the Calculator class and its methods.
